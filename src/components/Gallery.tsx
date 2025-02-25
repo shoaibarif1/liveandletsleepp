@@ -2,35 +2,32 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 
 const Gallery = () => {
-  const photos = [
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0001.jpg",
-      title: "Golden Hour Bliss"
-    },
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0002.jpg",
-      title: "Wanderlust Dreams"
-    },
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0003.jpg",
-      title: "Drifting Through Clouds"
-    },
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0004.jpg",
-      title: "Electric Serenity"
-    },
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0008.jpg",
-      title: "Midnight Vibes"
-    },
-    {
-      url: "src/components/img/liveandletsleepp-20250225-0006 (1).jpg",
-      title: "Whispers of the Peaks"
-    }
-    
-    
-    
-  ];
+    const photos = [
+  {
+    url: "/img/liveandletsleepp-20250225-0001.jpg",
+    title: "Golden Hour Bliss"
+  },
+  {
+    url: "/img/liveandletsleepp-20250225-0002.jpg",
+    title: "Wanderlust Dreams"
+  },
+  {
+    url: "/img/liveandletsleepp-20250225-0003.jpg",
+    title: "Drifting Through Clouds"
+  },
+  {
+    url: "/img/liveandletsleepp-20250225-0004.jpg",
+    title: "Electric Serenity"
+  },
+  {
+    url: "/img/liveandletsleepp-20250225-0008.jpg",
+    title: "Midnight Vibes"
+  },
+  {
+    url: "/img/liveandletsleepp-20250225-0006 (1).jpg",
+    title: "Whispers of the Peaks"
+  }
+];
 
   return (
     <section id="gallery" className="py-20 px-4 bg-black">
